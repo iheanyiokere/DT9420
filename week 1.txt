@@ -1,0 +1,102 @@
+KEY FEATURES OF PYTHON
+	Its easy to code and read.
+	Python is free and open source.
+	Python code doesn't change across operating systems.
+PROBLEMS PYTHON HAS FACED 
+	Errors due to updated language.
+	Dependant on the compiler been used.
+	It gets slow. 
+SOME SOFTWARE AND APPLICATIONS BUILT ON PYTHON INCLUDE 
+	Reddit.
+	Spotify.
+	BitTorrent.
+RELATIONSHP OF PYTHON WITH GIS
+	Most software are written with python eg ARCGis and QGis.
+	Python is open source and hence allows access to libraries like google maps.
+	Python is easy to use.
+
+calculate the volume of a sphere with radius 20mm. Output the result with a nice message
+
+	#assign values to variable
+	π = 3.142
+	r = 20
+	#write formula V=4/3.Π.r3
+	V = (4 / 3) * π * ((r ** 3))
+
+	print(str(V)  + " Good Job!")
+	
+allow the user to enter a radius for the above program and output the result.
+	#assign values to variable
+	π = 3.142
+	r = input("radius=")
+	a = int(r)
+	#write formula V=4/3.Π.r3
+
+	V = (4 / 3) * π * ((a ** 3))
+
+	print(str(V)  + " Good Job!")
+	
+calculate the volume of a cylinder, allowing the user to input the height and radius, and then print the output with a nice message.
+	#assign variables
+	π = 3.142
+	r = input("radius=")
+	a = int(r)
+	h = input("height=")
+	b = int(h)
+
+	#write formula V=πr2h
+
+	V = π * ((a ** 2)) * b
+
+	print(str(V) + " Amazing stuff!")
+	
+calculate the volume of a cone, allowing the user to input the height and radius, and then print the output with a nice message.
+	#assign variables
+	π = 3.142
+	r = input("radius=")
+	a = int(r)
+	h = input("height=")
+	b = int(h)
+
+	#write formula V=πr2h/3
+
+	V = π * (a ** 2) * ((b / 3))
+
+	print(str(V) + " Atta Boy!!")
+	
+Conversion
+calculate the fuel efficiency achieved on a journey, allowing the user to input the distance travelled and the amount of fuel used, give a nice output
+	#assign variables
+	d1 = input("distance A (km)=")
+	a = int(d1)
+	d2 = input("distance B (km)=")
+	b = int(d2)
+	f = input("fuel_used (Litres)=")
+	c = int(f)
+	#write formula E=(d2 - d1)/f
+
+	E = ((b - a)) / c
+
+	print(str(E) + " Well done!!")
+	
+create a Fahrenheit to Celsius converter, with user input
+	#assign variables
+	F = input("Fahrenhite=")
+	a = float(F)
+
+
+	#write Formula C = (F - 32) * 5/9
+	C = ((a - 32)) * 5 / 9
+	print(str(C) + "°C Wonderful!!")
+	
+create a Celsius to Fahrenheit converter, with user input
+	#assign variables 
+	C = input("Celsius=")
+	b = float(C)
+
+	#write formula F = (C * 9/5) +32
+	F = ((b * 9) / 5) + 32
+	print(str(F) +"°F Amazing Work!!")
+	
+	
+	

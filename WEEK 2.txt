@@ -1,0 +1,60 @@
+Take a year number as input from the user, and output whether the year is a leap-year or not.
+import math
+
+user_input = int(input("Please enter year:"))
+
+if user_input%4==0: print("Its a leap Year") else: print("It is not a leap year,last leap year was 2016")
+
+
+
+Write a program that takes a month numeral from the user and returns the text month and the season that the month is in.
+
+Extend the above program to also return the number of days in the month entered. Hint below if needed.
+
+num = eval(input("Please input enter a number of the months from 1-12: "))
+months =["Jan", "Feb", "March","April", "May","June","July","Aug", "sep","oct","Nov","Dec"]
+days =[31,28,31,30,31,30,31, 31,30,31,30,31]
+
+if num > 0 and num <=2: 
+    num = num - 1
+    print("The month you entered is:", months[num], ", it has", days[num], "days and the season is winter")
+    
+if num >2 and num <=4:
+    num = num - 1
+    print("The month you entered is:", months[num],", it has", days[num], "days and the season is spring")
+    
+if num >4 and num <=9:
+    num = num - 1
+    print("The month you entered is:", months[num],", it has", days[num], "days and the season is summer")   
+          
+if num >9 and num <=11 : 
+    num = num - 1
+    print("The month you entered is:", months[num],", it has", days[num], "days and the season is autumn")
+    
+if num ==12:
+    num = num - 1
+    print("The month you entered is:", months[num],", it has", days[num], "days and the season is winter")
+    
+elif num >12:
+    print("Wrong input, choose a number from 1-12")
+	
+	
+	
+	
+	
+Write a program that makes a shopping list, with the user able to enter an item and the number of items required. Then print the list, and the total number of items needed. Hint below if needed.
+	
+items = ["pear","orange","banana","tomato"]
+
+
+print("Enter corresponding items from list")
+sel_item = input()
+userInput=input("Enter Quantity needed:")
+
+while sel_item in items:
+    if sel_item in items:
+        print("You Entered " + sel_item)
+        print("The quantity is:"+ userInput)
+        break
+    else:
+        print("Sorry Order not available")
